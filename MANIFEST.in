@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cloudnaut_erpnext *.css
+recursive-include cloudnaut_erpnext *.csv
+recursive-include cloudnaut_erpnext *.html
+recursive-include cloudnaut_erpnext *.ico
+recursive-include cloudnaut_erpnext *.js
+recursive-include cloudnaut_erpnext *.json
+recursive-include cloudnaut_erpnext *.md
+recursive-include cloudnaut_erpnext *.png
+recursive-include cloudnaut_erpnext *.py
+recursive-include cloudnaut_erpnext *.svg
+recursive-include cloudnaut_erpnext *.txt
+recursive-exclude cloudnaut_erpnext *.pyc
