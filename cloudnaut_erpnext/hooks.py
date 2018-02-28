@@ -82,9 +82,6 @@ fixtures = ["Custom Field", "Property Setter"]
 # Hook on document methods and events
 
 doc_events = {
-	"Leave Application": {
-		"validate": "cloudnaut_erpnext.cloudnaut_erpnext.custom_leave_application.validate_monthly_leaves"
-	}
 }
 
 # Scheduled Tasks
